@@ -1,12 +1,51 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 50px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: #3498db;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-p {
-  margin-bottom: 20px;
+/* Header Styles */
+.header {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Additional Paragraph Styles */
+.additional-paragraph {
+  font-style: italic;
+  color: #555;
+}
+
+/* Styled Link Styles */
+.styled-link {
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.styled-link:hover {
+  text-decoration: underline;
 }
